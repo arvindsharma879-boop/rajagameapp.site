@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raja Game — Premium</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="description" content="Raja Game - Fun casual web games collection" />
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+  <header class="bg-gradient-to-r from-yellow-500 via-amber-500 to-red-500 shadow-2xl border-b-4 border-yellow-300">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-4">
+        <div class="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-xl overflow-hidden border-2 border-yellow-400">
+          <img src="assets/logo.jpg" class="w-12 h-12 object-contain" alt="Raja Game logo"/>
+        </div>
+        <div>
+          <h1 class="text-2xl font-extrabold text-white">Raja Game</h1>
+          <p class="text-sm text-yellow-200">Maza, dosti aur challenge — sab yahin</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center space-x-7 text-white font-semibold">
+        <a href="index.html#games" class="hover:text-yellow-300 transition">Games</a>
+        <a href="about.html" class="hover:text-yellow-300 transition">About</a>
+        <a href="contact.html" class="hover:text-yellow-300 transition">Contact</a>
+        <a href="https://www.rajaparty7.com/#/register?invitationCode=635542070244" class="bg-green-600 text-white px-5 py-2 rounded-xl shadow-md hover:bg-green-500 transition">Register</a>
+        <a href="https://www.rajaparty7.com/#/login" class="px-6 py-2 bg-gradient-to-r from-red-600 to-yellow-500 text-white font-bold rounded-2xl shadow-xl transform transition-all duration-300 hover:scale-110">Play Now ⚡</a>
+      </nav>
+      <button id="mobile-menu-btn" class="md:hidden bg-white p-3 rounded-xl shadow-lg">☰</button>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl font-extrabold leading-tight">Raja Game pe aapki agle level ki masti</h2>
+        <p class="mt-4 text-gray-300">Casual games, leaderboard, aur doston ke saath challenge — sab ek jagah. Seedha browser me khelo, download ki koi jarurat nahi.</p>
+        <div class="mt-6 flex gap-4">
+          <a href="index.html#games" class="px-5 py-3 bg-yellow-500 text-white rounded shadow font-semibold">Games dekhein</a>
+          <a href="https://www.rajaparty7.com/#/register?invitationCode=635542070244" class="px-5 py-3 bg-green-600 text-white rounded shadow font-semibold">Register</a>
+          <a href="https://t.me/+HA1UNh92k3IxMzY1" class="px-5 py-3 bg-blue-600 text-white rounded shadow font-semibold" target="_blank">Join Telegram</a>
+        </div>
+        <ul class="mt-6 grid grid-cols-2 gap-3 text-sm text-gray-400">
+          <li>🏆 Leaderboards</li>
+          <li>🎮 Multiplayer</li>
+          <li>⚡ Instant play — no install</li>
+          <li>📱 Mobile friendly</li>
+        </ul>
+      </div>
+      <div>
+        <div class="bg-gradient-to-br from-gray-800 to-gray-700 rounded-3xl p-6 shadow-2xl">
+          <h3 class="font-bold text-xl">Featured Game: Raja Runner</h3>
+          <p class="text-gray-300 mt-2">Ek fun endless runner game — jump, slide aur coins jama karo.</p>
+          <div class="mt-4 w-full h-56 bg-gray-900 rounded-lg flex items-center justify-center text-gray-500 overflow-hidden">
+            <img src="assets/promo1.jpg" alt="Featured" class="w-full h-full object-cover"/>
+          </div>
+          <div class="mt-4 flex gap-3">
+            <a href="#" class="flex-1 text-center px-4 py-2 bg-yellow-500 text-white rounded">Play</a>
+            <a href="#" class="flex-1 text-center px-4 py-2 border border-gray-600 rounded">Leaderboard</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="mt-12">
+      <h3 class="text-2xl font-bold text-white">Popular Games</h3>
+      <p class="text-gray-400 mt-2">Kuch demo games — aap chahe to inhe replace kar sakte hain apne game builds se.</p>
+
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-gradient-to-br from-gray-800 to-gray-700 p-4 rounded-lg shadow-xl transform hover:-translate-y-1 transition">
+          <div class="h-40 bg-gray-900 rounded flex items-center justify-center text-gray-400 mb-3 overflow-hidden">
+            <img src="assets/promo2.jpg" class="w-full h-full object-cover"/>
+          </div>
+          <h4 class="font-semibold text-white">Maze Master</h4>
+          <p class="text-sm text-gray-300 mt-1">Solve mazes aur time beat karo.</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">Single player</span>
+            <a href="#" class="text-sm font-semibold text-yellow-400">Play ▶</a>
+          </div>
+        </article>
+
+        <article class="bg-gradient-to-br from-gray-800 to-gray-700 p-4 rounded-lg shadow-xl transform hover:-translate-y-1 transition">
+          <div class="h-40 bg-gray-900 rounded flex items-center justify-center text-gray-400 mb-3 overflow-hidden">
+            <img src="assets/promo3.jpg" class="w-full h-full object-cover"/>
+          </div>
+          <h4 class="font-semibold text-white">Raja Runner</h4>
+          <p class="text-sm text-gray-300 mt-1">Endless runner with power-ups.</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">Arcade</span>
+            <a href="#" class="text-sm font-semibold text-yellow-400">Play ▶</a>
+          </div>
+        </article>
+
+        <article class="bg-gradient-to-br from-gray-800 to-gray-700 p-4 rounded-lg shadow-xl transform hover:-translate-y-1 transition">
+          <div class="h-40 bg-gray-900 rounded flex items-center justify-center text-gray-400 mb-3 overflow-hidden">
+            <img src="assets/promo4.jpg" class="w-full h-full object-cover"/>
+          </div>
+          <h4 class="font-semibold text-white">Raja Quiz</h4>
+          <p class="text-sm text-gray-300 mt-1">Doston ko challenge karein aur high score banayein.</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">Multiplayer</span>
+            <a href="#" class="text-sm font-semibold text-yellow-400">Play ▶</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h3 class="text-2xl font-bold text-white">Our Premium Highlights</h3>
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <img src="assets/promo1.jpg" class="w-full rounded-xl shadow-lg object-cover h-56"/>
+        <img src="assets/promo2.jpg" class="w-full rounded-xl shadow-lg object-cover h-56"/>
+        <img src="assets/promo3.jpg" class="w-full rounded-xl shadow-lg object-cover h-56"/>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-gray-400">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold text-white">Raja Game</h4>
+        <p class="text-sm mt-2">Address: Mumbai, India (sample)</p>
+        <p class="text-sm">Email: hello@rajagame.example</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white">Quick Links</h4>
+        <ul class="mt-2 text-sm space-y-1">
+          <li><a href="index.html#games">Games</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white">Get in touch</h4>
+        <form class="mt-2 grid gap-2">
+          <input placeholder="Naam" class="px-3 py-2 border rounded bg-gray-900 text-gray-100" />
+          <input placeholder="Email" class="px-3 py-2 border rounded bg-gray-900 text-gray-100" />
+          <textarea placeholder="Message" class="px-3 py-2 border rounded bg-gray-900 text-gray-100"></textarea>
+          <button class="px-4 py-2 bg-yellow-500 text-white rounded">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-500 py-4">© <span id="year"></span> Raja Game. All rights reserved.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const btn = document.getElementById('mobile-menu-btn');
+    btn.addEventListener('click', function(){ alert('Mobile menu: use navigation links in header on larger screens.'); });
+  </script>
+</body>
+</html>
